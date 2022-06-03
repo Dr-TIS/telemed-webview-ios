@@ -1,0 +1,613 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		797AA7E4284951AF00AE66DD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 797AA7E3284951AF00AE66DD /* AppDelegate.swift */; };
+		797AA7E6284951AF00AE66DD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 797AA7E5284951AF00AE66DD /* SceneDelegate.swift */; };
+		797AA7E8284951AF00AE66DD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 797AA7E7284951AF00AE66DD /* ViewController.swift */; };
+		797AA7EB284951AF00AE66DD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 797AA7E9284951AF00AE66DD /* Main.storyboard */; };
+		797AA7ED284951DA00AE66DD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 797AA7EC284951DA00AE66DD /* Assets.xcassets */; };
+		797AA7F0284951DA00AE66DD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 797AA7EE284951DA00AE66DD /* LaunchScreen.storyboard */; };
+		797AA7FB284951DB00AE66DD /* telemed_webview_iosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 797AA7FA284951DB00AE66DD /* telemed_webview_iosTests.swift */; };
+		797AA805284951DB00AE66DD /* telemed_webview_iosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 797AA804284951DB00AE66DD /* telemed_webview_iosUITests.swift */; };
+		797AA807284951DB00AE66DD /* telemed_webview_iosUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 797AA806284951DB00AE66DD /* telemed_webview_iosUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		797AA7F7284951DB00AE66DD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 797AA7D8284951AE00AE66DD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 797AA7DF284951AE00AE66DD;
+			remoteInfo = "telemed-webview-ios";
+		};
+		797AA801284951DB00AE66DD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 797AA7D8284951AE00AE66DD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 797AA7DF284951AE00AE66DD;
+			remoteInfo = "telemed-webview-ios";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		797AA7E0284951AF00AE66DD /* telemed-webview-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "telemed-webview-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		797AA7E3284951AF00AE66DD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		797AA7E5284951AF00AE66DD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		797AA7E7284951AF00AE66DD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		797AA7EA284951AF00AE66DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		797AA7EC284951DA00AE66DD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		797AA7EF284951DA00AE66DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		797AA7F1284951DA00AE66DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		797AA7F6284951DB00AE66DD /* telemed-webview-iosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "telemed-webview-iosTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		797AA7FA284951DB00AE66DD /* telemed_webview_iosTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = telemed_webview_iosTests.swift; sourceTree = "<group>"; };
+		797AA800284951DB00AE66DD /* telemed-webview-iosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "telemed-webview-iosUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		797AA804284951DB00AE66DD /* telemed_webview_iosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = telemed_webview_iosUITests.swift; sourceTree = "<group>"; };
+		797AA806284951DB00AE66DD /* telemed_webview_iosUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = telemed_webview_iosUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		797AA7DD284951AE00AE66DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		797AA7F3284951DB00AE66DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		797AA7FD284951DB00AE66DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		797AA7D7284951AE00AE66DD = {
+			isa = PBXGroup;
+			children = (
+				797AA7E2284951AF00AE66DD /* telemed-webview-ios */,
+				797AA7F9284951DB00AE66DD /* telemed-webview-iosTests */,
+				797AA803284951DB00AE66DD /* telemed-webview-iosUITests */,
+				797AA7E1284951AF00AE66DD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		797AA7E1284951AF00AE66DD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				797AA7E0284951AF00AE66DD /* telemed-webview-ios.app */,
+				797AA7F6284951DB00AE66DD /* telemed-webview-iosTests.xctest */,
+				797AA800284951DB00AE66DD /* telemed-webview-iosUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		797AA7E2284951AF00AE66DD /* telemed-webview-ios */ = {
+			isa = PBXGroup;
+			children = (
+				797AA7E3284951AF00AE66DD /* AppDelegate.swift */,
+				797AA7E5284951AF00AE66DD /* SceneDelegate.swift */,
+				797AA7E7284951AF00AE66DD /* ViewController.swift */,
+				797AA7E9284951AF00AE66DD /* Main.storyboard */,
+				797AA7EC284951DA00AE66DD /* Assets.xcassets */,
+				797AA7EE284951DA00AE66DD /* LaunchScreen.storyboard */,
+				797AA7F1284951DA00AE66DD /* Info.plist */,
+			);
+			path = "telemed-webview-ios";
+			sourceTree = "<group>";
+		};
+		797AA7F9284951DB00AE66DD /* telemed-webview-iosTests */ = {
+			isa = PBXGroup;
+			children = (
+				797AA7FA284951DB00AE66DD /* telemed_webview_iosTests.swift */,
+			);
+			path = "telemed-webview-iosTests";
+			sourceTree = "<group>";
+		};
+		797AA803284951DB00AE66DD /* telemed-webview-iosUITests */ = {
+			isa = PBXGroup;
+			children = (
+				797AA804284951DB00AE66DD /* telemed_webview_iosUITests.swift */,
+				797AA806284951DB00AE66DD /* telemed_webview_iosUITestsLaunchTests.swift */,
+			);
+			path = "telemed-webview-iosUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		797AA7DF284951AE00AE66DD /* telemed-webview-ios */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 797AA80A284951DB00AE66DD /* Build configuration list for PBXNativeTarget "telemed-webview-ios" */;
+			buildPhases = (
+				797AA7DC284951AE00AE66DD /* Sources */,
+				797AA7DD284951AE00AE66DD /* Frameworks */,
+				797AA7DE284951AE00AE66DD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "telemed-webview-ios";
+			productName = "telemed-webview-ios";
+			productReference = 797AA7E0284951AF00AE66DD /* telemed-webview-ios.app */;
+			productType = "com.apple.product-type.application";
+		};
+		797AA7F5284951DB00AE66DD /* telemed-webview-iosTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 797AA80D284951DB00AE66DD /* Build configuration list for PBXNativeTarget "telemed-webview-iosTests" */;
+			buildPhases = (
+				797AA7F2284951DB00AE66DD /* Sources */,
+				797AA7F3284951DB00AE66DD /* Frameworks */,
+				797AA7F4284951DB00AE66DD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				797AA7F8284951DB00AE66DD /* PBXTargetDependency */,
+			);
+			name = "telemed-webview-iosTests";
+			productName = "telemed-webview-iosTests";
+			productReference = 797AA7F6284951DB00AE66DD /* telemed-webview-iosTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		797AA7FF284951DB00AE66DD /* telemed-webview-iosUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 797AA810284951DB00AE66DD /* Build configuration list for PBXNativeTarget "telemed-webview-iosUITests" */;
+			buildPhases = (
+				797AA7FC284951DB00AE66DD /* Sources */,
+				797AA7FD284951DB00AE66DD /* Frameworks */,
+				797AA7FE284951DB00AE66DD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				797AA802284951DB00AE66DD /* PBXTargetDependency */,
+			);
+			name = "telemed-webview-iosUITests";
+			productName = "telemed-webview-iosUITests";
+			productReference = 797AA800284951DB00AE66DD /* telemed-webview-iosUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		797AA7D8284951AE00AE66DD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					797AA7DF284951AE00AE66DD = {
+						CreatedOnToolsVersion = 13.4;
+					};
+					797AA7F5284951DB00AE66DD = {
+						CreatedOnToolsVersion = 13.4;
+						TestTargetID = 797AA7DF284951AE00AE66DD;
+					};
+					797AA7FF284951DB00AE66DD = {
+						CreatedOnToolsVersion = 13.4;
+						TestTargetID = 797AA7DF284951AE00AE66DD;
+					};
+				};
+			};
+			buildConfigurationList = 797AA7DB284951AE00AE66DD /* Build configuration list for PBXProject "telemed-webview-ios" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 797AA7D7284951AE00AE66DD;
+			productRefGroup = 797AA7E1284951AF00AE66DD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				797AA7DF284951AE00AE66DD /* telemed-webview-ios */,
+				797AA7F5284951DB00AE66DD /* telemed-webview-iosTests */,
+				797AA7FF284951DB00AE66DD /* telemed-webview-iosUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		797AA7DE284951AE00AE66DD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				797AA7F0284951DA00AE66DD /* LaunchScreen.storyboard in Resources */,
+				797AA7ED284951DA00AE66DD /* Assets.xcassets in Resources */,
+				797AA7EB284951AF00AE66DD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		797AA7F4284951DB00AE66DD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		797AA7FE284951DB00AE66DD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		797AA7DC284951AE00AE66DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				797AA7E8284951AF00AE66DD /* ViewController.swift in Sources */,
+				797AA7E4284951AF00AE66DD /* AppDelegate.swift in Sources */,
+				797AA7E6284951AF00AE66DD /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		797AA7F2284951DB00AE66DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				797AA7FB284951DB00AE66DD /* telemed_webview_iosTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		797AA7FC284951DB00AE66DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				797AA805284951DB00AE66DD /* telemed_webview_iosUITests.swift in Sources */,
+				797AA807284951DB00AE66DD /* telemed_webview_iosUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		797AA7F8284951DB00AE66DD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 797AA7DF284951AE00AE66DD /* telemed-webview-ios */;
+			targetProxy = 797AA7F7284951DB00AE66DD /* PBXContainerItemProxy */;
+		};
+		797AA802284951DB00AE66DD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 797AA7DF284951AE00AE66DD /* telemed-webview-ios */;
+			targetProxy = 797AA801284951DB00AE66DD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		797AA7E9284951AF00AE66DD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				797AA7EA284951AF00AE66DD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		797AA7EE284951DA00AE66DD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				797AA7EF284951DA00AE66DD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		797AA808284951DB00AE66DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		797AA809284951DB00AE66DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		797AA80B284951DB00AE66DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B766DFGLCC;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "telemed-webview-ios/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Dr. Nuvem Telemedicina";
+				INFOPLIST_KEY_NSCameraUsageDescription = "Para o profissional visualizar você";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Para o profissional ouvir você";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "Para o profissional visualizar você";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "drtis.com.br.telemed-webview-ios";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		797AA80C284951DB00AE66DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B766DFGLCC;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "telemed-webview-ios/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Dr. Nuvem Telemedicina";
+				INFOPLIST_KEY_NSCameraUsageDescription = "Para o profissional visualizar você";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Para o profissional ouvir você";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "Para o profissional visualizar você";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "drtis.com.br.telemed-webview-ios";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		797AA80E284951DB00AE66DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "drtis.com.br.telemed-webview-iosTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/telemed-webview-ios.app/telemed-webview-ios";
+			};
+			name = Debug;
+		};
+		797AA80F284951DB00AE66DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "drtis.com.br.telemed-webview-iosTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/telemed-webview-ios.app/telemed-webview-ios";
+			};
+			name = Release;
+		};
+		797AA811284951DB00AE66DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "drtis.com.br.telemed-webview-iosUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "telemed-webview-ios";
+			};
+			name = Debug;
+		};
+		797AA812284951DB00AE66DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "drtis.com.br.telemed-webview-iosUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "telemed-webview-ios";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		797AA7DB284951AE00AE66DD /* Build configuration list for PBXProject "telemed-webview-ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				797AA808284951DB00AE66DD /* Debug */,
+				797AA809284951DB00AE66DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		797AA80A284951DB00AE66DD /* Build configuration list for PBXNativeTarget "telemed-webview-ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				797AA80B284951DB00AE66DD /* Debug */,
+				797AA80C284951DB00AE66DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		797AA80D284951DB00AE66DD /* Build configuration list for PBXNativeTarget "telemed-webview-iosTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				797AA80E284951DB00AE66DD /* Debug */,
+				797AA80F284951DB00AE66DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		797AA810284951DB00AE66DD /* Build configuration list for PBXNativeTarget "telemed-webview-iosUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				797AA811284951DB00AE66DD /* Debug */,
+				797AA812284951DB00AE66DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 797AA7D8284951AE00AE66DD /* Project object */;
+}

@@ -8,7 +8,7 @@
 import UIKit
 import WebKit
 
-class ViewController: UIViewController, WKUIDelegate, WKNavigationDelegate {
+class ViewController: UIViewController, WKUIDelegate, WKNavigationDelegate, UIScrollViewDelegate {
     
     var webView: WKWebView!
     
@@ -38,6 +38,10 @@ class ViewController: UIViewController, WKUIDelegate, WKNavigationDelegate {
         view = webView
     }
     
+    func scrollViewWillBeginZooming(_ scrollView: UIScrollView, with view: UIView?) {
+            scrollView.pinchGestureRecognizer?.isEnabled = false
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -46,8 +50,9 @@ class ViewController: UIViewController, WKUIDelegate, WKNavigationDelegate {
         }
         webView.load(URLRequest(url: url))
         webView.scrollView.isScrollEnabled = false
-     
-        
+        webView.scrollView.isMultipleTouchEnabled = false
+        self.webView.scrollView.delegate = self
+   
         DispatchQueue.main.asyncAfter(deadline: .now()+5) {
             self.webView.evaluateJavaScript("document.body.innerHTML") { result, error in guard let html = result as? String, error == nil else {
                 return

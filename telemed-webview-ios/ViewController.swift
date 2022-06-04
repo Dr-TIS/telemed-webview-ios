@@ -12,6 +12,13 @@ class ViewController: UIViewController, WKUIDelegate, WKNavigationDelegate, UISc
     
     var webView: WKWebView!
     
+    func webView(_ webView: WKWebView, createWebViewWith configuration: WKWebViewConfiguration, for navigationAction: WKNavigationAction, windowFeatures: WKWindowFeatures) -> WKWebView? {
+        if (navigationAction.request.url != nil) {
+                    UIApplication.shared.open(navigationAction.request.url!, options: [:], completionHandler: nil)
+                }
+        return nil
+    }
+    
     override func loadView() {
         let prefs = WKWebpagePreferences()
         prefs.allowsContentJavaScript = true

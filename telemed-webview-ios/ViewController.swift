@@ -49,7 +49,6 @@ class ViewController: UIViewController, WKUIDelegate, WKNavigationDelegate, UISc
             return
         }
         webView.load(URLRequest(url: url))
-        webView.scrollView.isScrollEnabled = false
         webView.scrollView.isMultipleTouchEnabled = false
         self.webView.scrollView.delegate = self
    
